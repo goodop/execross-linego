@@ -140,7 +140,7 @@ func sendFlex(token, to string, meta map[string]interface{}) (*ResponseData, err
 
 
 func main() {
-	baseAPIURL := "http://your-express-api-host/api/js/"
+	baseAPIURL := "https://dev.execross.pw/api/js/"
 	queryParams := url.Values{}
 	queryParams.Set("gid", "your_gid_value")
 	queryParams.Set("appName", "your_app_name")

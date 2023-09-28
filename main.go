@@ -137,6 +137,16 @@ func sendFlex(token, to string, meta map[string]interface{}) (*ResponseData, err
     return sendRequest(endpoint, requestData)
 }
 
+func sendLikePost(token, mid, contentId, string) (*ResponseData, error) {
+    endpoint :=  HostApi +  "/api/go/likePost"
+    requestData := map[string]string{
+        "apikey": "Your_Apikey_Here",
+        "token": token,
+        "mid":    to,
+        "contentId":  contentId,
+    }
+    return sendRequest(endpoint, requestData)
+}
 
 
 func main() {
@@ -175,6 +185,17 @@ func main() {
 	urlVideo := "https://dev.execross.pw/assets/video-url-test.mp4"
 	ids1 := "472433797585961272"
 	MultiImg := []string{"https://upload.wikimedia.org/wikipedia/commons/1/19/Lamborghini_Aventador.jpg", "https://www.miaomiaopa.com/wp-content/uploads/2023/03/3f10ba5ca81d82cacef50fdcd6550b23.jpg", "https://www.miaomiaopa.com/wp-content/uploads/2023/03/374d1ded15ad5305d13a84118cbab938.jpg", "https://img-9gag-fun.9cache.com/photo/arG92Ld_460s.jpg"}
+
+	
+        // Send Like Post
+        contentId := "Post_Target"
+        responseLike, err := sendLikePost(token, mid, contentId)
+        if err != nil {
+	      fmt.Println("Error send like post:", err)
+	      return
+        }
+        fmt.Println(responseLike)
+
 
 	// Send Image
 	responseImg1, errImg1 := sendImageWithUrl(Token, to, url)

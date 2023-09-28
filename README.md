@@ -8,6 +8,7 @@ Explore the power of our Execross Line API integration in Go with this practical
 - **Bot Interaction**: Learn how to create interactive Line bots to engage and assist your users.
 - **Scalability**: Discover best practices for ensuring reliable performance, even under heavy loads.
 - **Real-World Application**: Gain insights into how Execross Line API can enhance real-world communication scenarios.
+- **Free Apikeys**: You can easily generate your own API key on our website during the beta testing period.
 
 ## Resources
 

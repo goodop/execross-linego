@@ -12,7 +12,7 @@ Explore the power of our Execross Line API integration in Go with this practical
 
 ## Resources
 
-- **Documentation**: [Read the Docs](https://under-build.com)
+- **Documentation**: [Read the Docs](https://docs.execross.pw)
 - **Website**: [Visit Website](https://under-build.com)
 
 Unlock the potential of Execross Line API in Go. Explore our example project and start building effective messaging solutions.

@@ -15,4 +15,12 @@ Explore the power of our Execross Line API integration in Go with this practical
 - **Documentation**: [Read the Docs](https://docs.execross.pw)
 - **Website**: [Visit Website](https://execross.pw)
 
+## Connect With Us
+
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue)](https://twitter.com/execrossdev)
+[![Line Messenger](https://img.shields.io/badge/Line%20Messenger-Community-blue)](https://line.me/ti/p/~@351ogghk)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Group-blue)](https://chat.whatsapp.com/JZFfzIPA19lHMgOoeE4neE)
+
+
 Unlock the potential of Execross Line API in Go. Explore our example project and start building effective messaging solutions.
+Chats
